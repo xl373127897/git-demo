@@ -1,0 +1,31 @@
+设置签名
+git config --global user.name xulin
+git config --global user.email 373127897@qq.com
+
+git init  初始化本地库
+git status 查看状态
+
+gid add 文件名 追踪文件，将文件添加暂存区
+git rm --cached 文件名 删除暂存区的文件
+
+git commit -m "" 文件名 将暂存区文件提交到本地库
+
+git reflog 查看版本信息
+git log 查看版本详细日志
+
+git reset --hard 版本号 版本穿梭/版本切换
+
+分支
+git branch 分支名 创建分支
+git branch -v 查看分支  git branch 只显示分支名称
+git checkout 分支名 切换分支
+git merge 分支名 把指定分支合并到当前分支上
+
+创建远程仓库
+git remote -v 查看当前所有原创地址别名
+git remote add 别名 远程地址  创建别名
+
+git push 别名 分支  没有设置别名可以用远程连接代替  将本地代码推送到远程库
+git pull 别名 分支  没有设置别名可以用远程连接代替  将远程库代码拉取到本地
+
+git clone 远程地址 克隆远程代码到本地
