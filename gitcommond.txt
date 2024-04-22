@@ -22,8 +22,9 @@ git checkout 分支名 切换分支
 git merge 分支名 把指定分支合并到当前分支上
 
 创建远程仓库
-git remote -v 查看当前所有原创地址别名
+git remote -v 查看当前所有远程地址别名
 git remote add 别名 远程地址  创建别名
+git remote rm 别名  删除地址别名
 
 git push 别名 分支  没有设置别名可以用远程连接代替  将本地代码推送到远程库
 git pull 别名 分支  没有设置别名可以用远程连接代替  将远程库代码拉取到本地
